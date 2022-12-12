@@ -96,7 +96,7 @@ const checkNumber = () => {
     if (estaVacio(numberValue)) {
         return mostrarError(numberInput, "El campo es vacio");
     }else if (!esNumValido(numberValue)) {
-        return mostrarError(numberInput, "Porfavor ingrese solo un numero del 1 al 6");
+        return mostrarError(numberInput, "Por favor ingrese solo un numero del 1 al 6");
     }else {
         pizzaCoinci(numberValue)
         limpiarError(numberInput)
