@@ -65,7 +65,7 @@ main {
 }
 
 .form--input {
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
     padding: 5px;
     outline: unset;
